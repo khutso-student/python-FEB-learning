@@ -16,7 +16,6 @@ elif active == "/":
     if get2 != 0:  # Prevent division by zero
         result = get1 / get2
         print(f"{get1} / {get2} = {result}")
-    else:
-        print("Error zero is not allowed.")
+
 else:
-    print("Invalid . Please enter +, -, *, or /.")
+    print("Invalid, Please enter correct operation +, -, *, or /.")
